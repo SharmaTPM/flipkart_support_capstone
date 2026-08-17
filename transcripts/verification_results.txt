@@ -1,0 +1,19 @@
+================================================================================
+FLIPKART SUPPORT CAPSTONE - ACCEPTANCE CRITERIA VERIFICATION
+================================================================================
+
+
+================================================================================
+CRITERION 1-2: Dataset Structure
+================================================================================
+Rows: 6000 (Expected: 6000)
+Columns: 13 (Expected: 13)
+Column names: ['order_id', 'product_category', 'price_inr', 'discount_pct', 'payment_method', 'customer_tenure_days', 'num_previous_orders', 'num_previous_returns', 'delivery_distance_km', 'delivery_days', 'is_weekend_order', 'rating_given', 'returned']
+Return rate: 0.2275 (Expected: 0.18-0.27)
+Missing rating_given: 0.1305 (Expected: 0.08-0.18)
+
+Missingness by Payment Method:
+  Prepaid_Card: 0.0631
+  COD: 0.2283
+  Prepaid_UPI: 0.0566
+  Wallet: 0.0640
