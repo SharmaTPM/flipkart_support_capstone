@@ -91,7 +91,7 @@ The system handles user inquiries, evaluates order return risks, classifies retu
 │   └── sample_images/       # Sample product images for Part 2 evaluation
 ├── models/
 │   ├── return_risk_model.pkl           # Saved Part 1 Random Forest model
-│   └── resnet18_product_classifier.pth # Saved Part 2 ResNet18 PyTorch model
+│   └── product_classifier.pt           # Saved Part 2 PyTorch model
 └── transcripts/
     └── transcript_all.txt   # Evaluation transcript output files
 ```
