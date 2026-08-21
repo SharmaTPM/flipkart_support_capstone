@@ -85,9 +85,9 @@ The system handles user inquiries, evaluates order return risks, classifies retu
 ├── train_classifier.py      # Part 2 ResNet-18 model fine-tuning script
 ├── evaluate_classifier.py  # Part 2 model accuracy evaluation script
 ├── README.md                # Project documentation
+├── order_dataset.csv            # Part 1 structured order dataset
 ├── .gitignore               # Ignored files (including __pycache__, binaries, cache)
 ├── data/
-│   ├── order.csv            # Part 1 structured order dataset
 │   └── sample_images/       # Sample product images for Part 2 evaluation
 ├── models/
 │   ├── return_risk_model.pkl           # Saved Part 1 Random Forest model
